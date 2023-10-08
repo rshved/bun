@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
 app.use('/api/notes', notesRouter)
 
 app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`)
+  console.log(`Server is listening on port ${port}!`)
 })
 
